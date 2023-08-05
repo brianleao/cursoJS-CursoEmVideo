@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+  color: rgb(133, 133, 238);
+}
+
+h1 {
+  background: red;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculo {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: 200px;
+  text-align: center;
+  gap: 20px;
+}
+
+.resultado {
+  background: green;
+  border-radius: 10px;
+  width:100%;
+  height: 50px;
+  padding: 10px;
+}
+
+/* FOR IPHONE XR */
+@media (max-width: 414px) {
+  body {
+    background: rgb(0, 0, 0);
+    font-size: 25px;
+    color: white;
+  }
+
+  h1 {
+    background: cadetblue;
+  }
+
+  .calculo {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: 300px;
+  text-align: center;
+  gap: 20px;
+}
+
+#txtn1 {
+  height: 50px;
+}
+
+#txtn2 {
+  height: 50px;
+}
+
+#somar {
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  background: cadetblue;
+}
+
+}
