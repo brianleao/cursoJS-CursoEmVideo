@@ -1,7 +1,7 @@
 function carregar () {
-  let msg = window.document.querySelector("#msg");
-  let img = window.document.querySelector("#imagem");
-  let corpo = window.document.body;
+  let msg = document.querySelector("#msg");
+  let img = document.querySelector("#imagem");
+  let corpo = document.body;
   let data = new Date()
   let hora = data.getHours()
   msg.innerHTML = `Agora são ${hora} horas.`
