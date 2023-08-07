@@ -3,7 +3,7 @@ function verificar() {
   let ano = data.getFullYear()
   let fano = document.querySelector('#ano')
   let resposta = document.querySelector('#res');
-  if(fano.value.length == 0 | fano.value > ano) {
+  if(fano.value.length == 0 || fano.value > ano) {
     window.alert(`[ERRO] O ano é invalido, tente novamente.`)
   } else {
     //neste caso não consigo selecionar pelo querySelector
